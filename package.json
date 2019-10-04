@@ -2,17 +2,17 @@
   "name": "librairies",
   "version": "0.1.0",
   "private": true,
+  "main": "src/main.js",
   "scripts": {
     "serve": "PORT=1200 vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "chart.js": "^2.8.0",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10",
-    "vue-chartkick": "^0.5.2",
-    "vuejs-progress-bar": "^1.1.1"
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.10.0",
